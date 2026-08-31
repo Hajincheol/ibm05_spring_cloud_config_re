@@ -1,0 +1,5 @@
+spring:
+  # spring bean 객체를 만들 때 가져오는 용도
+  # jpa와 line을 맞춰서 작성
+  kafka:
+    kafka-server: localhost:9092
