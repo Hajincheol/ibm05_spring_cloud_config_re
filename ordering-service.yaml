@@ -9,7 +9,7 @@ spring:
       # order가 kafka에게 메시지를 보내면, product가 kafka를 바라보고 있다가 메시지를 리슨한다.
       # 이때 그룹id가 동일한 product갸 여러개이면 아무나 한번만가져감(여러번가져가면 재고감소 여러번발생),
       # 그룹id가 다르면 kafka가 메시지를 각각 전파함
-      group-id: product-group
+      group-id: ordering-group
       # 카프카내에 들어와있는 메시지중에 처음들어와있는 메시지부터 읽기시작(latest: 현시점이후로 들어오는 메시지만 read), product 서버가 죽었다가 살아난 경우가정
       auto-offset-reset: earliest
 
