@@ -8,3 +8,8 @@ jwt:
 
   #  beyondrefreshtokensecretkeybeyondrefreshtokensecretkeybeyondrefreshtokensecretkey
   secretKeyRt: YmV5b25kcmVmcmVzaHRva2Vuc2VjcmV0a2V5YmV5b25kcmVmcmVzaHRva2Vuc2VjcmV0a2V5YmV5b25kcmVmcmVzaHRva2Vuc2VjcmV0a2V5
+
+spring:
+  redis:
+    host: localhost
+    port: 6379
